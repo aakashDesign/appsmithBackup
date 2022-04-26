@@ -5,10 +5,10 @@
   "color": "#D6D1F2",
   "icon": "saturn",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "applicationVersion": 1,
   "isManualUpdate": false,
