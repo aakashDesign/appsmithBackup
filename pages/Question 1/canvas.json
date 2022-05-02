@@ -78,11 +78,11 @@
                       "parentRowSpace": 10,
                       "type": "CONTAINER_WIDGET",
                       "hideCard": false,
-                      "shouldScrollContents": true,
+                      "shouldScrollContents": false,
                       "animateLoading": true,
                       "parentColumnSpace": 21.75,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 17,
+                      "leftColumn": 18,
                       "dynamicBindingPathList": [],
                       "children": [
                         {
@@ -400,7 +400,7 @@
                               "dynamicBindingPathList": [],
                               "shouldTruncate": false,
                               "truncateButtonColor": "#FFC13D",
-                              "text": "Annonymous",
+                              "text": "Anonymous",
                               "key": "fxilitpz36",
                               "rightColumn": 58,
                               "textAlign": "RIGHT",
@@ -415,7 +415,15 @@
                               "fontSize": "PARAGRAPH2"
                             },
                             {
-                              "widgetName": "Checkbox1",
+                              "widgetName": "anonymous",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "defaultCheckedState"
+                                },
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
                               "displayName": "Checkbox",
                               "iconSVG": "/static/media/icon.aaab032b.svg",
                               "topRow": 5,
@@ -428,8 +436,15 @@
                               "parentColumnSpace": 9.203125,
                               "dynamicTriggerPathList": [],
                               "leftColumn": 58,
-                              "dynamicBindingPathList": [],
-                              "isDisabled": false,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultCheckedState"
+                                },
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "isDisabled": "{{\n\tappsmith.user.name === \"anonymousUser\"\n}}",
                               "key": "kvnug2vtkt",
                               "isRequired": false,
                               "rightColumn": 62,
@@ -440,7 +455,7 @@
                               "parentId": "lik2en285q",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "defaultCheckedState": true
+                              "defaultCheckedState": "{{\n\tappsmith.user.name === \"anonymousUser\"\n}}"
                             },
                             {
                               "widgetName": "userName",
@@ -456,10 +471,14 @@
                               "parentColumnSpace": 9.203125,
                               "dynamicTriggerPathList": [],
                               "leftColumn": 3,
-                              "dynamicBindingPathList": [],
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "text"
+                                }
+                              ],
                               "shouldTruncate": false,
                               "truncateButtonColor": "#FFC13D",
-                              "text": "Mr. Stark",
+                              "text": "{{ JSObject1.getAuthor() }}",
                               "key": "fxilitpz36",
                               "rightColumn": 45,
                               "textAlign": "LEFT",
@@ -477,10 +496,10 @@
                           "key": "ano9urd22v"
                         }
                       ],
-                      "borderWidth": "0.5",
+                      "borderWidth": "2",
                       "key": "urowx96da1",
                       "backgroundColor": "rgba(32, 32, 32, 0.1);}",
-                      "rightColumn": 45,
+                      "rightColumn": 46,
                       "widgetId": "h5in2l87j8",
                       "containerStyle": "card",
                       "isVisible": true,
@@ -604,7 +623,6 @@
           "Canvas110",
           "Canvas111Copy",
           "Canvas3",
-          "Checkbox1",
           "Container14",
           "Container15Copy",
           "Divider1",
@@ -619,6 +637,7 @@
           "Text8Copy",
           "Text8Copy1",
           "Text8CopyCopy",
+          "anonymous",
           "anythingElse",
           "doBetter",
           "doingWell",

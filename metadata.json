@@ -4,6 +4,14 @@
   "publishedDefaultPageName": "Question 1",
   "unpublishedDefaultPageName": "Question 1",
   "invisibleActionFields": {
+    "Question 1_JSObject1.getAuthor": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Question 1_JSObject1.getEmail": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "Question 1_post_feedback": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false

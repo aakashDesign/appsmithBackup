@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Question 1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tdefaultName: \"Anonymous\",\n\tgetAuthor: () => {\n\t\tif(appsmith.user.name === \"anonymousUser\" || anonymous.isChecked) {\n\t\t\treturn JSObject1.defaultName;\n\t\t}\n\t\treturn appsmith.user.name;\n\t},\n\tgetEmail: () => {\n\t\tif(appsmith.user.name === \"anonymousUser\" || anonymous.isChecked) {\n\t\t\treturn \"johncena@appsmith.com\";\n\t\t}\n\t\treturn appsmith.user.email;\n\t}\n}",
+    "variables": [
+      {
+        "name": "defaultName",
+        "value": "Anonymous"
+      }
+    ]
+  },
+  "id": "Question 1_JSObject1",
+  "deleted": false,
+  "gitSyncId": "60978e40207650068a7cb071_626f7cc38a368d6f1ef55778"
+}
