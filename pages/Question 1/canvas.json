@@ -332,7 +332,7 @@
                               "resetFormOnClick": true,
                               "widgetName": "FormButton1",
                               "rightColumn": 41,
-                              "onClick": "{{post_feedback.run(() => navigateTo('https://app.appsmith.com/applications/60978e40207650068a7cb071/pages/626f78f88a368d6f1ef5538c/edit?branch=main', {}), () => {})}}",
+                              "onClick": "{{post_feedback.run(() => navigateTo('Thank you', {}), () => {})}}",
                               "isDefaultClickDisabled": true,
                               "buttonColor": "#FFFFFF",
                               "dynamicPropertyPathList": [],
