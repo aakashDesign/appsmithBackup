@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1590,
+          "bottomRow": 1930,
           "containerStyle": "none",
           "snapRows": 108,
           "parentRowSpace": 1,
@@ -34,7 +34,7 @@
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3.svg",
               "topRow": 1,
-              "bottomRow": 143,
+              "bottomRow": 191,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -353,7 +353,7 @@
                               "disabledWhenInvalid": true,
                               "leftColumn": 25,
                               "dynamicBindingPathList": [],
-                              "buttonVariant": "SECONDARY",
+                              "buttonVariant": "PRIMARY",
                               "text": "Submit"
                             },
                             {
