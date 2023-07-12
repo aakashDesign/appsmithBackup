@@ -18,6 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "key": "method",
@@ -74,14 +75,71 @@
           "key": "smartSubstitution",
           "value": false
         }
-      ]
+      ],
+      "formData": {
+        "command": {
+          "data": "INSERT_ONE",
+          "viewType": "component",
+          "componentData": "INSERT_ONE"
+        },
+        "entityType": {
+          "data": "ROWS",
+          "viewType": "component",
+          "componentData": "ROWS"
+        },
+        "pagination": {
+          "data": {
+            "offset": "0",
+            "limit": "10"
+          },
+          "viewType": "component",
+          "componentData": {
+            "offset": "0",
+            "limit": "10"
+          }
+        },
+        "projection": {
+          "data": []
+        },
+        "queryFormat": {
+          "data": "RANGE",
+          "viewType": "component",
+          "componentData": "RANGE"
+        },
+        "range": {
+          "data": "A1:D10",
+          "viewType": "component",
+          "componentData": "A1:D10"
+        },
+        "rowObjects": {
+          "data": "{\n\t\"Name\": \"{{userName.text}}\",\n  \"What's going well?\": \"{{doingWell.text}}\",\n  \"What can I improve?\": \"{{doBetter.text}}\",\n  \"Anything else?\":  \"{{anythingElse.text}}\"\n}",
+          "viewType": "component",
+          "componentData": "{\n\t\"Name\": \"{{userName.text}}\",\n  \"What's going well?\": \"{{doingWell.text}}\",\n  \"What can I improve?\": \"{{doBetter.text}}\",\n  \"Anything else?\":  \"{{anythingElse.text}}\"\n}"
+        },
+        "sheetName": {
+          "data": "",
+          "viewType": "component",
+          "componentData": "feedback"
+        },
+        "sheetUrl": {
+          "data": "https://docs.google.com/spreadsheets/d/1iPGV2mkCbsbluUD-xS3kgfgfaAcj6zVgWRu35RMWkmM/edit",
+          "viewType": "component",
+          "componentData": "https://docs.google.com/spreadsheets/d/1iPGV2mkCbsbluUD-xS3kgfgfaAcj6zVgWRu35RMWkmM/edit"
+        },
+        "smartSubstitution": {
+          "data": false,
+          "viewType": "component",
+          "componentData": false
+        },
+        "tableHeaderIndex": {
+          "data": "1",
+          "viewType": "component",
+          "componentData": "1"
+        }
+      }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "pluginSpecifiedTemplates[9].value"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],

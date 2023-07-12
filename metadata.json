@@ -1,38 +1,5 @@
 {
   "clientSchemaVersion": 1,
-  "serverSchemaVersion": 4,
-  "publishedDefaultPageName": "Question 1",
-  "unpublishedDefaultPageName": "Question 1",
-  "invisibleActionFields": {
-    "Question 1_JSObject1.getAuthor": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Question 1_JSObject1.getEmail": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Question 1_post_feedback": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    }
-  },
-  "publishedTheme": {
-    "name": "Classic",
-    "displayName": "Classic",
-    "isSystemTheme": true,
-    "deleted": false,
-    "policies": [
-      {
-        "permission": "read:themes",
-        "users": [
-          "anonymousUser"
-        ],
-        "groups": []
-      }
-    ]
-  },
-  "publishedLayoutmongoEscapedWidgets": {},
-  "unpublishedLayoutmongoEscapedWidgets": {},
-  "fileFormatVersion": 2
+  "serverSchemaVersion": 6,
+  "fileFormatVersion": 4
 }
